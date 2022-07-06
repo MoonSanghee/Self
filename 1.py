@@ -14,8 +14,8 @@
 # |"^"`    |
 # ||_/=\\\__|''')
 
-# print(3+2)
+# A, B = input().split()
+# print(int(A)+int(B))
 
-# print(5-1)
-
-
+# A, B = input().split()
+# print(int(A)-int(B))
