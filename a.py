@@ -188,56 +188,144 @@
 # data1 = data.strip()
 # print(data1)
 
-#041
+# 041
 # ticker = "btc_krw"
 # a = ticker.upper()
 # print(a)
 
-#042
+# 042
 # ticker = "BCT_KRW"
 # a = ticker.lower()
 # print(a)
 
-#043
+# 043
 # a = "hello"
 # a = a.capitalize()
 # print(a)
 
-#044
+# 044
 # file_name = "보고서.xlsx"
 # print(file_name.endswith("xlsx"))
 
-#045
+# 045
 # file_name = "보고서.xlsx"
 # print(file_name.endswith(("xlsx", "xls")))
 
-#046
+# 046
 # file_name = "2020_보고서.xlsx"
 # print(file_name.startswith("2020"))
 
-#047
+# 047
 # a = "hello world"
 # print(a.split())
 
-# #048
+# 048
 # ticker = "btc_krw"
 # print(ticker.split('_'))
 
-#049
+# 049
 # date = "2020-05-01"
 # print(date.split('-'))
 # split을 이용하여 공백이 아닌 다른 문자를 지울때는 ''나 ""를 사이에 표시할 것
 
-#050
+# 050
 # data = "039490      "
 # print(data.rstrip())
 # # rstrip 오른쪽 공백 제거
 # # strip 양쪽 공백 제거
 # # lstrip 왼쪽 공백 제거
 
-#051
+# 051
 # movie_rank = ["닥터 스트레인지", "스플릿", "럭키"]
 
-# #052
+# 052
 # movie_rank.append("배트맨")
 # print(movie_rank)
+
+# 053
+# movie_rank = ["닥터 스트레인지", "스플릿", "럭키", "배트맨"]
+# movie_rank.insert(1, "슈퍼맨")
+# print(movie_rank)
+
+# 054
+# movie_rank = ["닥터 스트레인지", "슈퍼맨", "스플릿", "럭키", "배트맨"]
+# del movie_rank[3]
+# print(movie_rank)
+
+# 055
+# movie_rank = ["닥터 스트레인지", "슈퍼맨", "스플릿", "배트맨"]
+# del movie_rank[2]
+# del movie_rank[2]
+# print(movie_rank)
+
+# 056
+# lang1 = ["C", "C++", "JAVA"]
+# lang2 = ["Python", "Go", "C#"]
+# langs = lang1 + lang2
+# print(langs)
+
+# 057
+# nums = [1, 2, 3, 4, 5, 6, 7]
+# print("min: ", min(nums))
+# print("max: ", max(nums))
+
+# 058
+# nums = [1, 2, 3, 4, 5]
+# print(sum(nums))
+
+# 059
+# cook = ["피자", "김밥", "만두", "양념치킨", "족발", "피자", "김치만두", "쫄면", "소시지", "라면", "팥빙수", "김치전"]
+# print(len(cook))
+
+# 060
+# nums = [1, 2, 3, 4, 5]
+# a = sum(nums) / len(nums)
+# print(a)
+
+# 061
+# price = ['20180728', 100, 130, 140, 150, 160 ,170]
+# print(price[1:])
+
+# 062
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(nums[::2])
+
+# 063
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(nums[1::2])
+
+# 064
+# nums = [1, 2, 3, 4, 5]
+# print(nums[::-1])
+
+# 065
+# interest = ['삼성전자', 'LG전자', 'Naver']
+# print(interest[0], interest[2])
+
+# 066
+# interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+# print(" ".join(interest))
+
+# 067
+# interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+# print("/".join(interest))
+
+# 068
+# interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+# print("\n".join(interest))
+
+# 069
+# string = "삼성전자/LG전자/Naver"
+# interest = string.split("/")
+# print(interest)
+
+# 070
+# data = [2, 4, 3, 1, 5, 10, 9]
+# data.sort()
+# print(data)
+
+# data = [2, 4, 3, 1, 5, 10, 9]
+# data2 = sorted(data)
+# print(data2)
+
+#071
