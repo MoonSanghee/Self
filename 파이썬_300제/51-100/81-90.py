@@ -71,4 +71,4 @@
 #   File "<pyshell#69>", line 1, in <module>
 #     icecream['누가바']
 # KeyError: '누가바'
-# 딕셔너리에 키가 없음.
+# 딕셔너리에 키가 없음
