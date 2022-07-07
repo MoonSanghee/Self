@@ -1,4 +1,5 @@
-# 파이썬 300제 정리
+<details>
+<summary>파이썬 300제 정리</summary>
 
 01. 파이썬 시작하기
 [1-10](https://wikidocs.net/7014)
